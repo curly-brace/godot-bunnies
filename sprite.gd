@@ -74,5 +74,8 @@ func plus(cnt):
 func minus(cnt):
 	for i in range(cnt): remove_bunny()
 
-func switch_scene():
+func switch_to_texture():
 	get_tree().change_scene('res://draw_texture.scn')
+
+func switch_to_server():
+	get_tree().change_scene('res://low_level_canvas.scn')
